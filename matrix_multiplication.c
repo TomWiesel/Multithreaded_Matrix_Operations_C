@@ -59,8 +59,6 @@ int main(){
     return EXIT_SUCCESS;
 }
 
-
-
 void* mul_matrix_parallel(void* args){
     struct arg* local = args; 
     if(local->depth < local->size){
